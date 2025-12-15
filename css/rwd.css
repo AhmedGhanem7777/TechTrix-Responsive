@@ -1,0 +1,104 @@
+@media screen and (max-width:1420px){
+    header nav .nav-btn{
+        display: none;
+    }
+    header nav .collapse ul li a{
+        font-size: 16px !important;
+    }
+}
+@media screen and (max-width:1220px){
+    header nav .collapse ul li a{
+        font-size: 14px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:720px){
+    .home-section .content{
+        text-align: left;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:568px){
+
+
+    .home-section .content h1 {
+        font-size: 35px;
+        margin: 0 0 18px 0;
+    }
+
+
+    .navbar-toggler .navbar-toggler-icon{
+        color: #fff;
+    }
+    header nav .collapse ul{
+        background-color: #fff;
+        margin: 2px;
+        padding: 2px;
+    }
+    header nav .collapse ul li{
+        margin: 2px;
+        padding: 2px;
+    }
+
+
+    .overview-section .overview-content ul li{
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .copy-right .min{
+        text-align: center;
+    }
+    .copy-right ul{
+        justify-content: center !important;
+    }
+}
+@media screen and (min-width:569px) and (max-width:768px){
+    .copy-right .min{
+        text-align: center;
+    }
+    .copy-right ul{
+        justify-content: center !important;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1201px){
+    .overview-content .features-list li span{
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media (max-width: 992px) {
+    .navbar-collapse.show {
+        background-color: #fff; 
+    }
+
+    .navbar-collapse.show .navbar-nav .nav-item {
+        background-color: #fff; 
+    }
+    .navbar-nav{
+        margin-bottom: 0 !important;
+        padding: 0 0 0 10px;
+    }
+    .navbar-nav .nav-item{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .navbar-nav .nav-item .nav-link{
+        color: #000 !important;
+    }
+}
+
